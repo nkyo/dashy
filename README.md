@@ -423,6 +423,7 @@ Dashy supports multiple languages and locales. When available, your language sho
 - 🇰🇷 **Korean**: `ko` - Contributed by **[@boggy-cs](https://github.com/boggy-cs)**
 - 🇸🇰 **Slovak**: `sk` - Contributed by **[@Smexhy](https://github.com/Smexhy)**
 - 🇩🇰 **Danish**: `da` - Contributed by **[@lordpansar](https://github.com/lordpansar)**
+- 🇨🇿 **Czech**: `cs` - Contributed by **[@Tuzi555](https://github.com/Tuzi555)**
 
 #### Add your Language
 I would love Dashy to be available to everyone without language being a barrier to entry. If you've got a few minutes to spare, consider adding translations for your language. It's a quick task, and all text is in [a single JSON file](https://github.com/Lissy93/dashy/tree/master/src/assets/locales). Since any missing text will fall back to English, you don't need to translate it all.
@@ -581,6 +582,13 @@ Huge thanks to the sponsors helping to support Dashy's development!
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/bile0026">
+            <img src="https://avatars.githubusercontent.com/u/5022496?u=aec96ad173c0ea9baaba93807efa8a848af6595c&v=4" width="80;" alt="bile0026"/>
+            <br />
+            <sub><b>Zach Biles</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/UlisesGascon">
             <img src="https://avatars.githubusercontent.com/u/5110813?u=3c41facd8aa26154b9451de237c34b0f78d672a5&v=4" width="80;" alt="UlisesGascon"/>
             <br />
@@ -592,13 +600,6 @@ Huge thanks to the sponsors helping to support Dashy's development!
             <img src="https://avatars.githubusercontent.com/u/6022344?u=a52f42b946a1e1156f7bb9d7f65e9e28bb2da89f&v=4" width="80;" alt="BOZG"/>
             <br />
             <sub><b>Stephen Rigney</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/AdamXweb">
-            <img src="https://avatars.githubusercontent.com/u/6800453?u=3be969c9df11fa94351c42da8134ce3eaf33d6f1&v=4" width="80;" alt="AdamXweb"/>
-            <br />
-            <sub><b>Adam Kostarelas</b></sub>
         </a>
     </td>
     <td align="center">

@@ -62,6 +62,13 @@
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/bile0026">
+            <img src="https://avatars.githubusercontent.com/u/5022496?u=aec96ad173c0ea9baaba93807efa8a848af6595c&v=4" width="80;" alt="bile0026"/>
+            <br />
+            <sub><b>Zach Biles</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/UlisesGascon">
             <img src="https://avatars.githubusercontent.com/u/5110813?u=3c41facd8aa26154b9451de237c34b0f78d672a5&v=4" width="80;" alt="UlisesGascon"/>
             <br />
@@ -73,13 +80,6 @@
             <img src="https://avatars.githubusercontent.com/u/6022344?u=a52f42b946a1e1156f7bb9d7f65e9e28bb2da89f&v=4" width="80;" alt="BOZG"/>
             <br />
             <sub><b>Stephen Rigney</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/AdamXweb">
-            <img src="https://avatars.githubusercontent.com/u/6800453?u=3be969c9df11fa94351c42da8134ce3eaf33d6f1&v=4" width="80;" alt="AdamXweb"/>
-            <br />
-            <sub><b>Adam Kostarelas</b></sub>
         </a>
     </td>
     <td align="center">
@@ -161,17 +161,17 @@
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/Ateroz">
-            <img src="https://avatars.githubusercontent.com/u/5369885?v=4" width="80;" alt="Ateroz"/>
-            <br />
-            <sub><b>Kenneth Church</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/snyk-bot">
             <img src="https://avatars.githubusercontent.com/u/19733683?v=4" width="80;" alt="snyk-bot"/>
             <br />
             <sub><b>Snyk Bot</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Azerioxal">
+            <img src="https://avatars.githubusercontent.com/u/5369885?v=4" width="80;" alt="Azerioxal"/>
+            <br />
+            <sub><b>Kenneth Church</b></sub>
         </a>
     </td></tr>
 <tr>
@@ -319,6 +319,13 @@
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/m42e">
+            <img src="https://avatars.githubusercontent.com/u/2410802?v=4" width="80;" alt="m42e"/>
+            <br />
+            <sub><b>Matthias Bilger</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/thomasdissert">
             <img src="https://avatars.githubusercontent.com/u/11446531?v=4" width="80;" alt="thomasdissert"/>
             <br />
@@ -330,13 +337,6 @@
             <img src="https://avatars.githubusercontent.com/u/21180271?v=4" width="80;" alt="k073l"/>
             <br />
             <sub><b>K073l</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/patrickheeney">
-            <img src="https://avatars.githubusercontent.com/u/1407228?v=4" width="80;" alt="patrickheeney"/>
-            <br />
-            <sub><b>Patrick Heeney</b></sub>
         </a>
     </td></tr>
 </table>
