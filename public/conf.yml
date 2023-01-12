@@ -1,47 +1,274 @@
 ---
-# Page meta info, like heading, footer text and nav links
-pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
-  navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
-
-# Optional app settings and configuration
 appConfig:
-  theme: colorful
-
-# Main content - An array of sections, each containing an array of items
-sections:
-- name: Getting Started
-  icon: fas fa-rocket
-  items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
+  theme: dashy-docs
+  layout: vertical
+  iconSize: large
+  language: en
+  auth:
+    enableGuestAccess: true
+    users:
+    - user: root
+      hash: dc7da726282b7f6c10d1ba8081272a2507bc2f7a27506b5ac435f5a3ce23b3b4
+      type: admin
+    - user: namlt
+      hash: dc7da726282b7f6c10d1ba8081272a2507bc2f7a27506b5ac435f5a3ce23b3b4
+      type: admin
+    - user: support
+      hash: a18603086e5bdf9df88ccc9f5a083fed093e819976e87456b74dafcbd7011114
+      type: normal
+    - user: assmin
+      hash: 71e506fe848d7eb968dd6cf532cac64d863809e26f9cf83735fd00082dec81d3
+      type: admin
+    enableKeycloak: false
+  customColors:
+    one-dark:
+      primary: "#c5cad3"
+      background: "#282c33"
+      background-darker: "#1c1f23"
+  startingView: default
+  defaultOpeningMethod: newtab
+  statusCheck: true
+  statusCheckInterval: 0
+  faviconApi: allesedv
+  routingMode: history
+  enableMultiTasking: true
+  widgetsAlwaysUseProxy: false
+  webSearch:
+    disableWebSearch: false
+    searchEngine: duckduckgo
+    openingMethod: newtab
+    searchBangs: {}
+  enableFontAwesome: true
+  enableMaterialDesignIcons: false
+  hideComponents:
+    hideHeading: true
+    hideNav: true
+    hideSearch: true
+    hideSettings: false
+    hideFooter: false
+  showSplashScreen: false
+  preventWriteToDisk: false
+  preventLocalSave: false
+  disableConfiguration: false
+  allowConfigEdit: true
+  enableServiceWorker: true
+  disableContextMenu: false
+  disableUpdateChecks: false
+  disableSmartSort: false
+  enableErrorReporting: false
+pageInfo:
+  title: " MatBao Tools"
+  description: MatBao Tools
+  navLinks:
+  - title: Support QuickTools
+    path: https://check.matbao.support/quicktool
     target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
-  
+  - title: Tài Liệu
+    path: https://learn.matbao.support
+    target: newtab
+  footerText: MatBao Tools
+  logo: https://www.matbao.net/Content/images/logo-matbao-net.svg?ver=1
+sections:
+- name: Hosting - Server
+  icon: fas fa-server
+  items:
+  - title: Check Ping
+    description: Ping Quốc tế
+    icon: https://check.matbao.support/icons/png/sschwifty.png
+    url: https://check-host.net/check-ping
+    target: modal
+    id: 0_1472_checkping
+  - title: Check Info Web
+    description: Scan Website
+    icon: https://check.matbao.support/icons/png/haproxy.png
+    url: https://scan.matbao.support
+    target: modal
+    id: 1_1472_checkinfoweb
+  - title: Shrink Logs DB
+    icon: https://check.matbao.support/icons/png/teslamate.png
+    url: https://tool.spteam.xyz/shrink/
+    target: modal
+    id: 2_1472_shrinklogsdb
+  - title: Monitor ClouServer
+    icon: fas fa-server
+    url: https://cloudmonitor.matbao.support/
+    target: modal
+    id: 3_1472_monitorclouserver
+  - title: Managed Remote
+    icon: https://check.matbao.support/icon/server.png
+    url: https://remote.matbao.support
+    target: modal
+    id: 4_1472_managedremote
+  displayData:
+    sortBy: default
+    rows: 1
+    cols: 1
+    collapsed: false
+    hideForGuests: false
+- name: SSL Tools
+  icon: fa fa-lock
+  displayData:
+    sortBy: default
+    rows: 1
+    cols: 1
+    collapsed: false
+    hideForGuests: false
+  items:
+  - title: Convert JKS
+    description: Chuyển đổi định dang PEM sang JKS
+    icon: https://tjth.co/wp-content/uploads/2018/03/java-logo.png
+    url: https://tool.spteam.xyz/ssl/SSLConvert/pem2jks.php
+    target: modal
+    id: 0_803_convertjks
+  - title: Convert PFX
+    description: PEM to PFX
+    icon: https://check.matbao.support/icons/png/alertmanager.png
+    url: https://tool.spteam.xyz/ssl/SSLConvert/pem2pfx.php
+    target: modal
+    id: 1_803_convertpfx
+  - title: Check Key & CRT
+    description: Check trùng khớp Key và CRT
+    icon: fas fa-key
+    url: https://tool.spteam.xyz/ssl/SSLMatch/
+    target: modal
+    id: 2_803_checkkeycrt
+  - title: Đếm Ký Tự
+    icon: fa fa-font
+    url: https://tool.spteam.xyz/demkt/
+    target: modal
+    id: 3_803_mkt
+  - title: Kiểm tra CSR
+    icon: fa fa-cogs
+    url: https://check.matbao.dev/csr.php
+    target: modal
+    id: 4_803_kimtracsr
+  - title: Private Data
+    description: Công cụ mã hóa thông tin
+    icon: fas fa-user-lock
+    url: https://privatedata.matbao.support/
+    target: modal
+    id: 5_803_privatedata
+  - title: Convert JKS
+    description: Chuyển đổi định dang PEM sang JKS
+    icon: https://tjth.co/wp-content/uploads/2018/03/java-logo.png
+    url: https://tool.spteam.xyz/ssl/SSLConvert/pem2jks.php
+    target: modal
+    id: 6_803_convertjks
+- name: Email
+  icon: fas fa-envelope
+  displayData:
+    sortBy: default
+    rows: 1
+    cols: 1
+    collapsed: false
+    hideForGuests: false
+  items:
+  - title: SMTP Check
+    description: Kiểm tra gửi SMTP
+    icon: fas fa-envelope
+    url: https://check.matbao.support/smtp/
+    target: modal
+    id: 0_488_smtpcheck
+  - title: Check IMAP
+    description: ''
+    icon: fas fa-inbox
+    url: https://tool.spteam.xyz/checkimap/
+    target: modal
+    id: 1_488_checkimap
+  - title: Check Lỗi Mail
+    icon: fas fa-envelope
+    url: https://check.matbao.support/checkmail.php
+    target: modal
+    id: 2_488_checklimail
+  - title: Check IP SPF
+    icon: fas fa-inbox
+    url: https://check.matbao.support/spf.php
+    target: modal
+    id: 3_488_checkipspf
+- name: Domain
+  icon: fas fa-toolbox
+  displayData:
+    sortBy: default
+    rows: 1
+    cols: 1
+    collapsed: false
+    hideForGuests: false
+  items:
+  - title: Check NameServer
+    description: Kiểm tra thông tin Name Server
+    icon: https://check.matbao.support/icon/domain.png
+    url: https://check.matbao.support/checkns.php
+    target: modal
+    id: 0_600_checknameserver
+  - title: Đổi NameServer
+    icon: https://check.matbao.support/icon/domain.png
+    url: https://work.matbao.dev/auto/doins/index.php
+    target: modal
+    id: 1_600_inameserver
+  - title: Reseller Check
+    icon: https://check.matbao.support/icon/dot.png
+    url: https://check.matbao.support/op.php
+    target: modal
+    id: 2_600_resellercheck
+  - title: Check Domain Nhạy Cảm
+    icon: https://check.matbao.dev/icon/domain.png
+    url: https://check.matbao.support/domainkey.php
+    target: modal
+    id: 3_600_checkdomainnhycm
+  - title: Check Thông Tin IP
+    description: kiểm tra IP của NCC nào
+    icon: https://check.matbao.support/icons/png/sschwifty.png
+    url: https://check.matbao.support/checkip.php
+    target: modal
+    id: 4_600_checkthngtinip
+  - title: Xóa Cache Google
+    icon: fab fa-google
+    url: https://dns.google/cache
+    target: newtab
+    id: 5_600_xacachegoogle
+  - title: Xoá Cache CloudFlare
+    icon: fab fa-cloudflare
+    url: https://1.1.1.1/purge-cache/
+    target: modal
+    id: 6_600_xocachecloudflare
+- name: SP Tools
+  icon: fas fa-toolbox
+  displayData:
+    sortBy: default
+    rows: 1
+    cols: 1
+    collapsed: false
+    hideForGuests: false
+  items:
+  - title: Check Zipcode
+    icon: fas fa-globe-asia
+    url: https://check.matbao.support/zipcode.php
+    target: modal
+    id: 0_724_checkzipcode
+  - title: Check Lỗi web
+    icon: fas fa-exclamation-triangle
+    url: https://check.matbao.support/checkweb.php
+    target: modal
+    id: 1_724_checkliweb
+  - title: Get IP info
+    description: ping / lấy thông tin hàng loạt ip của domain
+    icon: fas fa-globe-asia
+    url: https://check.matbao.support/checkip/
+    target: modal
+    id: 2_724_getipinfo
+  - title: Check DNS
+    description: Kiểm tra DNS Tên miền
+    icon: https://check.matbao.dev/icon/domain.png
+    url: https://check.matbao.support/checkdns.php
+    target: modal
+    id: 3_724_checkdns
+  - title: Chuyển đổi không dấu
+    icon: fas fa-pencil
+    url: https://check.matbao.support/khongdau.php
+    target: modal
+    id: 4_724_chuynikhngdu
+  - title: Check Google Workspace
+    icon: fab fa-google
+    url: https://check.matbao.support/gws.php
+    target: modal
+    id: 5_724_checkgoogleworkspace
